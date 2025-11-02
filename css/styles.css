@@ -226,12 +226,12 @@ font-style: normal;
     padding: 0;
     margin: 0;
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-container {
     align-items: center;
     margin: 0 auto;
-    padding: 120px 0 120px;
 }
 
 .title-team {
