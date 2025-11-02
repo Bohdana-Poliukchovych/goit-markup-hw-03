@@ -156,8 +156,8 @@ font-style: normal;
     border: none;
     white-space: nowrap;
     padding: 16px 32px;
-    min-width: 169px
     height: 56px;
+    min-width: 169px;
 }
 
 .btn-hero:hover,
@@ -174,6 +174,7 @@ font-style: normal;
 .benefits-container {
     align-items: center;
     margin: 0 auto;
+    padding: 120px 0 120px;
 }
 
 .visually-hidden {
@@ -199,9 +200,7 @@ font-style: normal;
 }
 
 .list-benefits-item {
-    display: block;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    display: block;;
     width: 264px;
     width: ((100%-72px)/4);
     
@@ -233,6 +232,7 @@ font-style: normal;
 .team-container {
     align-items: center;
     margin: 0 auto;
+    padding: 120px 0 120px;
 }
 
 .title-team {
@@ -243,7 +243,6 @@ font-style: normal;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -255,7 +254,6 @@ font-style: normal;
     gap: 24px;
     background-color: #F4F4FD;
     padding-top: 120px;
-    padding-bottom: 120px;
     margin: 0 auto;
 
 }
@@ -271,6 +269,7 @@ font-style: normal;
 
 
 .list-team-pic {
+    display: block;
     width: 264px;
     height: 260px;
     background-color: #FFFFFF;
@@ -315,6 +314,7 @@ margin: 0;
 .portfolio-container {
     align-items: center;
     margin: 0 auto;
+    padding: 120px 0 120px 0;
 }
 
 .title-section-portfolio {
@@ -325,9 +325,8 @@ margin: 0;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding: 120px 0 120px 0;
         margin-bottom: 72px;
-        margin: 0 auto;
+        
 }
 
 .list-section-portfolio {
@@ -350,6 +349,7 @@ margin: 0;
 }
 
 .list-portfolio-pic {
+    display: block;
     width: 360px;
     height: 300px;
 }
@@ -357,6 +357,7 @@ margin: 0;
 .container-works {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
