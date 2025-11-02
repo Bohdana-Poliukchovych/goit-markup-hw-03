@@ -21,7 +21,7 @@ a {
 .container {
 max-width: 1158px;
 padding: 0 15px;
-margin: o auto;
+margin: 0 auto;
 
 }
 
@@ -124,7 +124,8 @@ font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
     margin: 0 auto;
     gap: 48px;
 }
@@ -137,26 +138,26 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
 }
     
 
 .btn-hero {
-   display: inline-block;
-   text-align: center;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4d5ae5;
-        cursor: pointer;
-        border-radius: 4px;
-        border: none;
-        white-space: nowrap;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    white-space: nowrap;
+    padding: 16px 32px;
+    min-width: 169px
+    height: 56px;
 }
 
 .btn-hero:hover,
@@ -199,7 +200,8 @@ font-style: normal;
 
 .list-benefits-item {
     display: block;
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
     width: 264px;
     width: ((100%-72px)/4);
     
@@ -242,7 +244,7 @@ font-style: normal;
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .list-team {
@@ -252,8 +254,9 @@ font-style: normal;
     align-items: center;
     gap: 24px;
     background-color: #F4F4FD;
-        padding-bottom: 120px;
-        margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
 
 }
 
@@ -277,6 +280,7 @@ font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px 0 32px;
     margin: 0 16px;
     gap: 8px;
 
@@ -289,7 +293,8 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
+    margin-bottom: 8px;
+    
     
 }
 
@@ -299,7 +304,7 @@ font-style: normal;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
+    
 }
 
 .section-portfolio {
@@ -320,8 +325,8 @@ margin: 0;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-top: 120px;
-        padding-bottom: 72px;
+        padding: 120px 0 120px 0;
+        margin-bottom: 72px;
         margin: 0 auto;
 }
 
@@ -332,7 +337,6 @@ margin: 0;
     justify-content: center;
     gap: 48px 24px;
     width: calc((100-48px)/3);
-    padding-bottom: 120px;
     margin: 0 auto;
 
 }
@@ -351,17 +355,17 @@ margin: 0;
 }
 
 .container-works {
-padding: 32px 0;
-margin-left: 16px;
-gap: 8px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -379,12 +383,13 @@ gap: 8px;
 .container-footer {
     display: block;
     align-items: first baseline;
-    padding: 100px 0;
+    padding: 100px 0 100px;
     margin-left: 156px;
 }
 
 
 .logo-footer {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -392,7 +397,8 @@ gap: 8px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-        background-color: #2e2f42;
+    background-color: #2e2f42;
+    margin-bottom: 16px;
 }
 
 .footer-part-logo {
@@ -411,5 +417,4 @@ gap: 8px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         width: 264px;
-        padding-top: 16px;
 }
